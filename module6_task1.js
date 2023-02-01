@@ -6,7 +6,7 @@ function countEvenOddItems(array) {
     let countZero = 0;
   
     for (let i = 0; i < array.length; ++i) {
-        if (typeof array[i] != 'number' || isNaN(array[i]) === true) {
+        if (typeof array[i] != 'number' || Number.isNaN(array[i])) {
             continue;
         } else if (array[i] === 0) {
             ++countZero;
