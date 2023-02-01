@@ -17,3 +17,11 @@ function checkPrimeNumber(myNumber) {
 }
 
 console.log(myNumber + ' - ' +  checkPrimeNumber(myNumber));
+
+// Couple of function tests to see if it works perfectly
+/*console.log(343 + ' - ' + checkPrimeNumber(343));
+console.log(997 + ' - ' +  checkPrimeNumber(997));
+console.log(NaN + ' - ' +  checkPrimeNumber(NaN));
+console.log(3.14 + ' - ' +  checkPrimeNumber(3.14));
+console.log(0 + ' - ' +  checkPrimeNumber(0));
+console.log(1 + ' - ' +  checkPrimeNumber(1));*/
